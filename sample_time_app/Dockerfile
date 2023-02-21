@@ -1,4 +1,4 @@
-FROM python:3.5
+FROM python:3.5@sha256:42a37d6b8c00b186bdfb2b620fa8023eb775b3eb3a768fd3c2e421964eee9665
 
 RUN apt-get update \
   && apt-get clean \
